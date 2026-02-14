@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "Z:\\Projects\\Lyrics_Forge\\LyricsForge.Api\\LyricsForge.Api.csproj": {}
+  },
+  "projects": {
+    "Z:\\Projects\\Lyrics_Forge\\LyricsForge.Api\\LyricsForge.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Projects\\Lyrics_Forge\\LyricsForge.Api\\LyricsForge.Api.csproj",
+        "projectName": "LyricsForge.Api",
+        "projectPath": "Z:\\Projects\\Lyrics_Forge\\LyricsForge.Api\\LyricsForge.Api.csproj",
+        "packagesPath": "C:\\Users\\harik\\.nuget\\packages\\",
+        "outputPath": "Z:\\Projects\\Lyrics_Forge\\LyricsForge.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\harik\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\harik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\harik\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
